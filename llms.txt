@@ -1,0 +1,30 @@
+# mangom72.github.io
+
+> 개인 프로젝트를 올려 두는 자리입니다. 지금 여기서 돌아가는 것은 **기출 직행**
+> 하나이고, 실제 자료와 사용 안내는 모두 그 아래에 있습니다.
+> A personal project host. The one project served here is 기출 직행, an index
+> of Korean college-entrance exam papers.
+
+이 파일은 호스트 뿌리에 두는 이정표입니다. 규격상 `llms.txt`는 도메인 뿌리에서
+찾게 되어 있는데, 실제 내용은 프로젝트 경로 안에 있어 여기서 가리킵니다.
+**아래 첫 줄을 따라가면 그다음은 거기 적혀 있습니다.**
+
+## 기출 직행 — 수능·모평·학평 기출문제
+
+- [사용 안내](https://mangom72.github.io/Direct-mogo/llms.txt): 자료 구조와 시작점. 여기서 시작하세요
+- [자세한 안내](https://mangom72.github.io/Direct-mogo/llms-full.txt): 필드별 설명, 예제 코드, 오류 대응
+- [과목 목록 (JSON)](https://mangom72.github.io/Direct-mogo/data/index.json): 49개 과목과 각 과목의 데이터 경로
+- [과목별 목록 (사람이 읽는 화면)](https://mangom72.github.io/Direct-mogo/s/): 스크립트 없이 그대로 읽히는 HTML
+
+수능·모의평가·전국연합학력평가 문제지 원본 PDF의 **목록**입니다. 파일을 저장하거나
+재배포하지 않고, EBSi가 공개한 주소로 직접 연결합니다. 인증도 API 키도 필요 없습니다.
+
+**연도를 다룰 때 주의하십시오.** 자료의 연도는 시험을 본 해(시행 연도)입니다.
+흔히 "2026 수능"이라 부르는 것은 **2025년 11월에 시행된** 시험이며, 평가원 시험의
+학년도는 시행 연도 + 1입니다. 교육청 학력평가에는 학년도를 쓰지 않습니다.
+자세한 규칙은 위 사용 안내에 있습니다.
+
+## Optional
+
+- [기출 직행 열기](https://mangom72.github.io/Direct-mogo/): 사람이 쓰는 화면. 자료를 압축해 품고 있어 받아 간 HTML에는 목록이 들어 있지 않습니다
+- [저장소](https://github.com/Mangom72/Direct-mogo): 코드는 MIT. 자료를 어떻게 모으는지도 여기 있습니다

@@ -7,6 +7,7 @@ User-agent: *
 Allow: /
 
 # 기출 직행 (수능·모평·학평 기출 문제지 목록)
+#   https://mangom72.github.io/llms.txt                      여기서 시작
 #   https://mangom72.github.io/Direct-mogo/llms.txt          기계로 읽는 법
 #   https://mangom72.github.io/Direct-mogo/data/index.json   과목 목록
 # 목록 정보와 코드는 MIT입니다. 화면을 긁지 마시고 JSON을 그대로 가져가세요 — 더 빠릅니다.

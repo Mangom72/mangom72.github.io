@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 사이트맵 색인. 실제 주소 목록은 각 프로젝트 페이지가 제 자리에서 만들고,
+     여기서는 그것들을 가리키기만 한다.
+
+     이 파일이 필요한 이유: 검색엔진 관리도구가 사이트를 호스트 단위로 등록받고,
+     사이트맵도 등록한 사이트의 뿌리 기준으로 받는다. 프로젝트 페이지 안쪽
+     (/Direct-mogo/sitemap.xml)만 있으면 그 자리에서 걸린다.
+
+     색인이라 내용이 바뀌지 않는다 — 회차가 늘어도 고칠 일이 없다. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://mangom72.github.io/sitemap-home.xml</loc></sitemap>
+  <sitemap><loc>https://mangom72.github.io/Direct-mogo/sitemap.xml</loc></sitemap>
+</sitemapindex>

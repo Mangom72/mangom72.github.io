@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 이 뿌리 페이지 한 장. 회차 목록은 /Direct-mogo/sitemap.xml 이 맡는다.
+     lastmod는 적지 않는다 — 정확히 관리할 수 없는 날짜는 없느니만 못하다. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://mangom72.github.io/</loc></url>
+</urlset>

@@ -7,6 +7,13 @@
 <meta name="description" content="수능·6월·9월 모의평가와 전국연합학력평가 기출 문제지 원본 PDF로 한 번에 이동합니다. 2006년 시행분부터 3,844회차·49과목, 설치도 로그인도 없습니다.">
 <link rel="canonical" href="https://mangom72.github.io/">
 
+<!-- 기계만 읽으면 되는 것은 화면이 아니라 여기 둔다. rel=alternate 는 '같은
+     내용의 다른 표현'이라는 뜻이라 안내문과 JSON에 그대로 맞고, 사람 눈에는
+     아무것도 늘지 않는다. 화면에 적어 두고 CSS로 감추는 길도 있지만 그건
+     사람에게 감추고 검색엔진에만 보이는 짓이라 구글이 클로킹으로 다룬다. -->
+<link rel="alternate" type="text/plain" href="/Direct-mogo/llms.txt" title="AI·프로그램용 안내">
+<link rel="alternate" type="application/json" href="/Direct-mogo/data/index.json" title="과목 목록 (JSON)">
+
 <!-- 검색 결과에 뜨는 사이트 이름은 도메인 뿌리에서 가져간다. 여기 아무것도
      없으면(예전에는 404였다) 구글이 알아서 지어내는데, 실제로 'GitHub Pages
      documentation'이라는 엉뚱한 이름과 GitHub 아이콘이 붙어 있었다.
@@ -82,20 +89,14 @@ footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--rule);
   <a href="/Direct-mogo/app/gijul-direct.apk">안드로이드 앱</a>
 </p>
 
-<h2>기계로 읽으실 분께</h2>
-<ul>
-  <li><a href="/Direct-mogo/llms.txt">llms.txt</a> — AI·프로그램용 사용 안내</li>
-  <li><a href="/Direct-mogo/data/index.json">data/index.json</a> — 과목 목록과 각 과목 JSON 주소</li>
-  <li><a href="https://github.com/Mangom72/Direct-mogo">GitHub 저장소</a> — 코드는 MIT</li>
-</ul>
-
 <footer>
   <p>모든 링크는 EBSi가 공개하여 별도의 인증 없이 접근 가능한 파일 주소로 직접 연결되며,
   이 사이트는 어떤 파일도 저장·재배포하지 않습니다. 문제 자료의 저작권은
   <b>한국교육과정평가원</b> 및 <b>각 시·도교육청</b>에 있습니다. 권리자께서 요청하시면
   지체 없이 내립니다 —
   <a href="https://github.com/Mangom72/Direct-mogo/blob/main/NOTICE.md">이용 안내</a>.</p>
-  <p>만든 사람 <a href="https://github.com/Mangom72">@Mangom72</a></p>
+  <p>코드는 MIT — <a href="https://github.com/Mangom72/Direct-mogo">GitHub 저장소</a> ·
+     만든 사람 <a href="https://github.com/Mangom72">@Mangom72</a></p>
 </footer>
 
 </body>
